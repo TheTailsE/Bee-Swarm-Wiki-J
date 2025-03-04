@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="ICON" href="bss icon.jpg">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <style>
+        body 
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: rgba(247, 247, 107, 0.771);
+            border: 5px double yellow; 
+            font-family:marker;
+        }
+
+        .img 
+        {
+            width: 90%;
+            height: 100%;
+            object-fit: contain;
+            cursor: pointer;
+        }
+       
+        .h1 
+        {
+            text-align: center;
+            position: absolute;
+            top: 50px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            z-index: 1;
+            cursor: pointer;
+        }
+
+        .img1 
+        {
+            text-align: center;
+            position: absolute;
+            top: 10px;
+            left: 0;
+            right: 800px;
+            margin: auto;
+            z-index: 1;
+            cursor: pointer;
+            width: 8%;
+        }
+        h2 
+        {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            cursor: pointer;
+        }
+
+        .C 
+        {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="C">
+        <h1 class="h1 MI img">Welcome to Bee Swarm Simulator Wiki</h1>
+        <img src="bss logo.jpg" alt="BSS Logo" class="img1 MI">
+    </div>
+        <img src="logo.gif" alt="Moving Image" id="MI" class="img MI">
+    
+    
+    <script>
+    $(document).ready(function () 
+    {
+        AI();
+
+    $(".MI").click(function () 
+    {
+        P();
+    });
+
+    function AI() 
+    {
+        $(".MI").animate({ marginLeft: '50px' }, 1000, function () 
+        {
+            $(".MI").animate({ marginLeft: '0' }, 1000);
+        });
+    }
+
+    function P() 
+    {
+        $("body").slideUp(500, function() 
+        {
+            let UI = prompt("Enter 1 to go to the next website\nEnter 0 to Leave:");
+            if (UI === "1") 
+            {
+                window.location.href = "index.html"; 
+            } else if (UI === "0") 
+            {
+                alert("You chose toleave this page.");
+               
+            } else 
+            {
+                alert("Invalid input. Please enter 1 or 0.");
+                P(); 
+            }
+        });
+    }
+            
+        });
+    </script>
+   
+</body>
+</html>

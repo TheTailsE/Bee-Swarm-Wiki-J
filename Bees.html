@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bees</title>
+    <link rel="ICON" href="bss icon.jpg">
+    
+    <style>
+        body {
+            margin: 60px;
+            padding: 0;
+            background-image: url(bg\ image.jpg);
+            background-size: 90%;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            height: 200px;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: black;
+            display:flex;
+            justify-content: center;
+            padding: 2px;
+            
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            padding: 10px ;
+            margin: 20px;
+        }
+
+        section {
+            padding: 20px;
+            background-color:black;
+            color: white;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+           
+            
+        }
+        #bss{
+            color: yellow;
+        }
+        .a{
+            text-decoration: none;
+            color: aqua;
+        }
+        .important{
+            color: plum;
+        }
+        p{
+            word-spacing: 10px;
+            line-height: 30px;
+
+        }
+        .Bees{
+            color: darkgrey;
+        }
+        .table1{
+           padding: 20px;
+           border-collapse: collapse;
+            text-align: center;
+            width: 100%;
+           
+        }
+        th,td{
+            padding: 20px;
+            border: white 1px solid;
+            font-size: 20px;
+            
+        }
+        .button{
+            float: right; 
+            border-radius: 15px;
+            padding: 20px; 
+            
+            font-size: 20px;
+            background-color: yellow;
+            border-color: black;
+        }
+        #bees1{
+            margin: 20px;
+            text-decoration: none;
+            color: aqua;
+        }
+       
+    </style>
+
+</head>
+<body>
+    <link rel = "stylesheet" type ="text/css" href="index.css"/>
+    <a id="top"></a>
+    <header style="font-family:marker;">
+        <div style="border: 18px double  ;  border-color:   yellow black black yellow;  padding: 10px; padding-left:  5px;"></div>
+        <div id="div1"> <a href="index.html" style="text-decoration: none;"> <img class="img1" src="bss logo.jpg" alt="Bss"><span style="font-size: 35px; margin-left: 20px; margin-top: 800px;color: rgb(248, 248, 76);"> Welcome to <br><span style="text-decoration: none; margin-left: 220px;color: yellow;"> Bee Swarm Simulator Wiki</span></a></div>
+    </header>
+    
+    <nav>
+        <a class="emoji1" href="Bees.html" target="Bss"> <span style="font-size: 25px;"><sup>🐝</sup></span> Bees </a>
+         <a class="emoji2" href="Items.html" target="Bss"><span style="font-size: 25px;"><sup>🧰</sup></span> Tools </a>
+         <a class="emoji3" href="Bears.html" target="Bss"><span style="font-size: 25px;"><sup>🐻</sup></span> Bears </a>
+         <a class="emoji4" href="Fields.html" target="Bss"><span style="font-size: 25px;"><sup>💠</sup></span> Fields </a>
+         <a class="emoji5" href="Mobs.html" target="Bss"><span style="font-size: 25px;"><sup>👾</sup></span> Mobs </a>
+         <a class="emoji6" href="Amulet.html" target="Bss"><span style="font-size: 25px;"><sup>💫</sup></span> Amulet </a>
+         <a class="emoji7" href="Shops.html" target="Bss"><span style="font-size: 25px;"><sup>🏪</sup></span> Shops </a>
+         <a class="emoji8" href="Map.html" target="Bss"><span style="font-size: 25px;"><sup>🗺️</sup></span> Map </a>
+ 
+     </nav>
+    
+     <section style=" border: 5px solid  ;  border-color:  rgba(255, 255, 0, 0.733) rgba(255, 255, 0, 0.733) rgba(255, 255, 0, 0.733) rgba(255, 255, 0, 0.733);">
+        <div style="margin: 0; padding-left: 50px; size: 50px;">
+        <h2>Bees</h2>
+        <div id="bees1" style="padding-left: 50px; font-size: 23px;">
+        <a href="#common" id="bees1"><img src="Basic_Bee.webp" alt="" style="width: 6%;">Common</a>
+        <a href="#Rare" id="bees1"><img src="Cool_Bee.webp" alt="" style="width: 6%;">Rare</a>
+        <a href="#Epic" id="bees1"><img src="Bubble_Bee.webp" alt="" style="width: 6%;">Epic</a>
+        <a href="#Legendary" id="bees1"><img src="Baby_Bee.webp" alt="" style="width: 6%;">Legendary</a>
+        <a href="#Mythic" id="bees1"><img src="Fuzzy_Bee.webp" alt="" style="width: 6%;">Mythic</a>
+        <a href="#Event" id="bees1"><img src="Bear_Bee.webp" alt="" style="width: 6%;">Event</a>
+    </div>
+    </div>
+        <hr>
+        <p style="color: white;font-size: 20px;padding: 20px;"><b style="color: yellow;">Bees</b> are<i style="color: plum;"> one of the index</i> features of <span id="bss">Bee Swarm Simulator</span> . 
+            They follow the player around, collect  Pollen from <a class="a" href="Fields.html">Fields</a> , and defend their beekeeper from <a class="a" href="Mobs.html">Mobs</a> and bosses. 
+            Bees are one of the primary sources for collecting pollen, as they do it automatically, and most bees produce <span class="important">Ability Token</span> . Upon returning to the <span class="important">Hive</span> 
+            , they will convert pollen into <span class="important">Honey</span> , the index Currency used in <a class="a" href="Shops.html">Shops</a>
+            to buy <a class="a" href="Items.html">Items</a>. The hive is also where bees sleep when they run out of <span class="important">Energy</span>
+            , or where they rest if their beekeeper dies or resets, doing so for about 15 seconds before returning to work. When a bee runs out of energy, a message in the player’s notifications or chat will pop out:
+             ”😴[Bee’s name] is out of energy! It’s going to sleep.”</p>
+        <p>
+
+        <p style="color: white;font-size: 20px;padding: 20px;">
+            As bees gather pollen, fight Mobs, and consume <span class="important">Treats</span> and other items, the Bees '<span class="important">bond</span>
+            with their Beekeeper grows, increasing their level after reaching a certain threshold. Higher-level bees are capable of collecting and converting
+            more pollen into honey and having more energy to work longer (except for <span class="Bees">Photon Bee</span> and <span class="Bees">Exhausted Bee,</span>
+            who both have unlimited energy), and being able to attack higher-level mobs.
+        </p>
+        <p style="color: white;font-size: 20px;padding: 20px;">
+            Bees are hatched from <span class="important">Eggs</span> , with the probability of hatching a bee of a particular rarity or type depending on the rarity of the egg 
+            (i.e., a Gold Egg can hatch into an <span class="important">Epic</span>, <span class="important">Legendary</span>, <span class="important">Mythic</span>). The player can change the 
+            type of an already-hatched bee by applying a <span class="important">Royal Jelly</span>or another egg. Once the 25 default Hive Slots are filled up with bees, the player can expand 
+            their hive by buying extra hive slots from the Mountain Top Shop. While hive slots increase in price exponentially, this allows the player to have 25 different hive slots for a maximum of <span class="important">50 bees</span>. 
+        </p>
+        
+        <p style="color: white;font-size: 20px;padding: 20px;">
+            The <span class="important">eight</span>t types of eggs are basic eggs, silver eggs, gold eggs, diamond eggs, star eggs, mythic eggs, specific bee eggs, and event bee eggs, along with gifted variants of silver/gold/diamond/mythic eggs.
+        </p>
+                    
+           
+          <table class="table1" > <a id="common"></a>
+                <h1 style="text-align: center;color: aquamarine;">Types of Bees </h1><hr>
+                <h2 style="text-align: left;color: lavender;">Common Bees</h2>
+                <tr  style=" background-color: #333; border: none;">
+                    <th >Bee</th>
+                    <th>Icon</th>
+                    <th>Description</th>
+                </tr>
+                
+                <tr>
+                    <td><img src="Basic_Bee.webp" alt="Basic_Bee">Basic Bee</td>
+                    <td><img src="BasicIcon.webp" alt="BasicIcon"></td>
+                    <td>An ordinary bee. Well rounded and hard working !</td>
+                </tr>
+            </table>
+            <table class="table1"><a id="Rare"></a>
+                <h2 style="text-align: left;color: blueviolet;">Rare Bees</h2>
+                <tr>
+                    <th >Bee</th>
+                    <th>Icon</th>
+                    <th>Description</th>
+                <tr>
+                    <td><img src="Bomber_Bee.webp" alt="Bomber_Bee">Bomber Bee</td>
+                    <td><img src="BomberIcon.webp" alt="Icon"></td>
+                    <td>This crafty bee makes bombs which collect pollen from all nearby flowers.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Brave_Bee.webp" alt="Brave_Bee">Brave Bee</td>
+                    <td><img src="BraveIcon.webp" alt="BraveIcon"></td>
+                    <td>This loyal bee will do anything to protect its owner.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Bumble_Bee.webp" alt="Bumble_Bee">Bumble Bee</td>
+                    <td><img src="BumbleIcon.webp" alt="BumbleIcon"></td>
+                    <td>A mellow fellow who moves a little slow, but works harder and longer than others.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Cool_Bee.webp" alt="Cool_Bee">Cool Bee</td>
+                    <td><img src="CoolIcon.webp" alt="CoolIcon"></td>
+                    <td>A sarcastic bee who's a little better than the others. Sometimes boosts pollen from Blue flowers.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Hasty_Bee.webp" alt="Hasty_Bee">Hasty Bee</td>
+                    <td><img src="HastyIcon.webp" alt="hastyIcon"></td>
+                    <td>A quick bee who always zips arounds. Sometimes it even makes YOU move faster.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Looker_Bee.webp" alt="Looker_Bee">Looker Bee</td>
+                    <td><img src="LookerIcon.webp" alt="lookerIcon"></td>
+                    <td>This silent bee is always watching and gaining valuable insights.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Rad_Bee.webp" alt="Rad_Bee">Rad Bee</td>
+                    <td><img src="RadIcon.webp" alt="RadIcon"></td>
+                    <td>A stylish bee with a taste for red flowers. Everyone wants to be this bee.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Rascal_Bee.webp" alt="Rascal_Bee">Rascal Bee</td>
+                    <td><img src="RascalIcon.webp" alt="RascalIcon"></td>
+                    <td>A mischievous bee who moves quick and hits hard. Keep an eye out on this one.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Stubborn_Bee.webp" alt="Stubborn_Bee">Stubborn Bee</td>
+                    <td><img src="StubbornIcon.webp" alt="StubbornIcon"></td>
+                    <td>A hardheaded bee who can't be bossed around. It tells others where to go.</td>
+                </tr>
+
+            </table>
+            <table class="table1"><a id="Epic"></a>
+                <h2 style="text-align: left;color: blueviolet;">Epic Bees</h2>
+                <tr>
+                    <th >Bee</th>
+                    <th>Icon</th>
+                    <th>Description</th>
+                    </tr>
+                <tr>
+                    <td><img src="Bubble_Bee.webp" alt="_Bee">Bubble Bee</td>
+                    <td><img src="BubbleIcon.webp" alt="BubbleIcon"></td>
+                    <td>As a larva, this bee lived in the ocean. It loves Blue flowers cause they remind it of home.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Bucko_Bee.webp" alt="_Bee">Bucko Bee</td>
+                    <td><img src="BuckoIcon.webp" alt="Icon"></td>
+                    <td>Leader of the Blue bees, and a long time rival of Riley Bee. Its tenacity is its greatest strength.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Commander_Bee.webp" alt="_Bee">Commander Bee</td>
+                    <td><img src="CommanderIcon.webp" alt="Icon"></td>
+                    <td>A strong, no-nonsense bee who stays level-headed when things get rough.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Demo_Bee.webp" alt="_Bee">Demo Bee</td>
+                    <td><img src="DemoIcon.webp" alt="Icon"></td>
+                    <td>An elite Bomber Bee who has worked its way up the ranks. It is an expert in explosives.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Exhausted_Bee.webp" alt="_Bee">Exhausted Bee</td>
+                    <td><img src="ExhaustedIcon.webp" alt="Icon"></td>
+                    <td>This bee suffers from insomnia. It moves slowly, but it never has to sleep.</td>
+                </tr>
+                <tr>
+                    <td><img src="Fire_Bee.webp" alt="_Bee">Fire Bee</td>
+                    <td><img src="FireIcon.webp" alt="Icon"></td>
+                    <td>As an egg, this bee was accidentally left in the trunk of a car in the middle of the summer for over 3 days!</td>
+                </tr>
+                <tr>
+                    <td><img src="Frosty_Bee.webp" alt="_Bee">Frosty Bee</td>
+                    <td><img src="FrostyIcon.webp" alt="Icon"></td>
+                    <td>A bee made of snow. It magically came to life after someone put a top hat on its head.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Honey_Bee.webp" alt="_Bee">Honey Bee</td>
+                    <td><img src="HoneyIcon.webp" alt="Icon"></td>
+                    <td>A satisfied bee always full with the finest honey. If you're Iucky it will share some.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Rage_Bee.webp" alt="_Bee">Rage Bee</td>
+                    <td><img src="RageIcon.webp" alt="Icon"></td>
+                    <td>A very angry bee who has been wronged its whole life. It harnesses its rage to become more powerful.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Riley_Bee.webp" alt="_Bee">Riley Bee</td>
+                    <td><img src="RileyIcon.webp" alt="Icon"></td>
+                    <td>Leader of the Red bees, and a long time rival of Bucko Bee. Its fiery nature has elevated it above the rest.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Shocked_Bee.webp" alt="_Bee">Shocked Bee</td>
+                    <td><img src="ShockedIcon.webp" alt="Icon"></td>
+                    <td>This bee is startled by everything it comes acrossed. It has learned special talents to cope.</td>
+                </tr>
+
+            </table>
+
+            <table class="table1"><a id="Legendary"></a>
+                <h2 style="text-align: left;color: blueviolet;">Legendary Bees</h2>
+                <tr>
+                    <th >Bee</th>
+                    <th>Icon</th>
+                    <th>Description</th>
+                </tr>
+
+                <tr>
+                    <td><img src="Baby_Bee.webp" alt="_Bee">Baby Bee</td>
+                    <td><img src="BabyIcon.webp" alt="Icon"></td>
+                    <td>This little bee isn't very good at bee tasks yet, but it's guaranteed to bring you joy (and luck).</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Carpenter_Bee.webp" alt="_Bee">Carpenter Bee</td>
+                    <td><img src="CarpenterIcon.webp" alt="Icon"></td>
+                    <td>A bee with a knack for construction. It built its own body out of wood.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Demon_Bee.webp" alt="_Bee">Demon Bee</td>
+                    <td><img src="DemonIcon.webp" alt="Icon"></td>
+                    <td>A powerful bee with magical powers fueled by pure hatred.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Diamond_Bee.webp" alt="_Bee">Diamond Bee</td>
+                    <td><img src="DiamondIcon.webp" alt="Icon"></td>
+                    <td>An extremely wealthy and pompous bee who has the money and talent to justify its attitude.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Lion_Bee.webp" alt="_Bee">Lion Bee</td>
+                    <td><img src="LionIcon.webp" alt="Icon"></td>
+                    <td>Half lion, half bee. This is the king of both the jungle and bee hive.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Music_Bee.webp" alt="_Bee">Music Bee</td>
+                    <td><img src="MusicIcon.webp" alt="Icon"></td>
+                    <td>This bee's buzz is so beautiful it can bring anyone to tears. It uses this gift to motivate others.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Ninja_Bee.webp" alt="_Bee">Ninja Bee</td>
+                    <td><img src="NinjaIcon.webp" alt="Icon"></td>
+                    <td>This bee trained vigorously for years to become the swiftest bee that has ever lived.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Shy_Bee.webp" alt="_Bee">Shy Bee</td>
+                    <td><img src="ShyIcon.webp" alt="Icon"></td>
+                    <td>This talented bee doesn't like to socialize, it just wants to work and be left alone.</td>
+                </tr>
+
+                
+            </table>
+            
+            <table class="table1"><a id="Mythic"></a>
+                <h2 style="text-align: left;color: blueviolet;">Mythic Bees</h2>
+                <tr>
+                    <th >Bee</th>
+                    <th>Icon</th>
+                    <th>Description</th>
+                </tr>
+
+                <tr>
+                    <td><img src="Buoyant_Bee.webp" alt="_Bee">Buoyant Bee</td>
+                    <td><img src="BuoyantIcon.webp" alt="Icon"></td>
+                    <td>Just like a balloon, nothing can keep this bee down. It's always ready to party.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Fuzzy_Bee.webp" alt="_Bee">Fuzzy Bee</td>
+                    <td><img src="FuzzyIcon.webp" alt="Icon"></td>
+                    <td>This unkempt ball of fluff is actually a bee. Its fur aids in the pollination of flowers.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Precise_Bee.webp" alt="_Bee">Precise Bee</td>
+                    <td><img src="PreciseIcon.webp" alt="Icon"></td>
+                    <td>This sharpshooting bee is always on point and expects the same of you.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Spicy_Bee.webp" alt="_Bee">Spicy Bee</td>
+                    <td><img src="SpicyIcon.webp" alt="Icon"></td>
+                    <td>Some like it hot - this bee likes it scorching. Even the honey it makes is spicy.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Tadpole_Bee.webp" alt="_Bee">Tadpole Bee</td>
+                    <td><img src="TadpoleIcon.webp" alt="Icon"></td>
+                    <td>A tiny amphibious bee who wants to become a frog when it grows up.</td>
+                </tr>
+
+                <tr>
+                    <td><img src="Vector_Bee.webp" alt="_Bee">Vector Bee</td>
+                    <td><img src="VectorIcon.webp" alt="Icon"></td>
+                    <td>A bee brought to life by an extremely complex trigonometric equation.</td>
+                </tr>
+
+            
+                </table>
+
+                <table class="table1"><a id="Event"></a>
+                    <h2 style="text-align: left;color: blueviolet;">Event Bees</h2>
+                    <tr>
+                        <th >Bee</th>
+                        <th>Icon</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td><img src="Bear_Bee.webp" alt="_Bee">Bear Bee</td>
+                        <td><img src="BearIcon.webp" alt="Icon"></td>
+                        <td>A friendly bee who transforms you into different bears!</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="Cobalt_Bee.webp" alt="_Bee">Cobalt Bee</td>
+                        <td><img src="CobaltIcon.webp" alt="Icon"></td>
+                        <td>A superhero and defender of all things Blue! Together with Crimson Bee it works to unite bees of all colors.</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="Crimson_Bee.webp" alt="_Bee">Crimson Bee</td>
+                        <td><img src="CrimsonIcon.webp" alt="Icon"></td>
+                        <td>A superhero and defender of all things Red! Together with Cobalt Bee it works to unite bees of all colors.</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="Digital_Bee.webp" alt="_Bee">Digital Bee</td>
+                        <td><img src="DigitalIcon.webp" alt="Icon"></td>
+                        <td>A virtual bee with malfunctioning AI. It corrupts the game itself.</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="Festive_BeeFixed.webp" alt="_Bee">Festive Bee</td>
+                        <td><img src="FestiveIcon.webp" alt="Icon"></td>
+                        <td>A jolly bee who loves giving gifts! It's purely motivated by the joy of others.</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="Gummy_Bee.webp" alt="_Bee">Gummy Bee</td>
+                        <td><img src="GummyIcon.webp" alt="Icon"></td>
+                        <td>A squishy bee who's sweet as sugar. Covers flowers in goo to grant you bonus honey !</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="Photon_Bee.webp" alt="_Bee">Photon Bee</td>
+                        <td><img src="PhotonIcon.webp" alt="Icon"></td>
+                        <td>An entity made of pure light temporarily taking on the form of a bee.</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="Puppy_Bee.webp" alt="_Bee">Puppy Bee</td>
+                        <td><img src="PuppyIcon.webp" alt="Icon"></td>
+                        <td>A playful bee who only cares about two things, its tennis ball and you!</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="Tabby_Bee.webp" alt="_Bee">Tabby Bee</td>
+                        <td><img src="TabbyIcon.webp" alt="Icon"></td>
+                        <td>This affectionate bee was raised by cats. It becomes a better worker as it warms up to you.</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="Vicious_Bee.webp" alt="_Bee">Vicioys Bee</td>
+                        <td><img src="ViciousIcon.webp" alt="Icon"></td>
+                        <td>This cold-blooded bee takes great pleasure in inflicting pain.</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="Windy_Bee.webp" alt="_Bee">Windy Bee</td>
+                        <td><img src="WindyIcon.webp" alt="Icon"></td>
+                        <td>An ethereal bee as powerful and unpredictable as the weather.</td>
+                    </tr>
+
+                    </table>
+
+
+        </p>
+    </section>
+
+    
+    <a href="#top"><button class="button">Up</button></a>
+
+    <footer style="border: 18px double  ;  border-color:   #333 rgba(255, 255, 0, 0.733) rgba(255, 255, 0, 0.733) #333;  padding: 10px; padding-left:  5px;">
+        <a href="Register.html" style="text-decoration: underline;color: orange;font-size: 20px;">Register here</a> <br><br> to keep up with  the latest news
+         <p>&copy; 2023 Bee Swarm Simulator Wiki </p>
+     </footer>
+
+</body>
+</html>
